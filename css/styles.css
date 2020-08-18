@@ -53,13 +53,38 @@
     background: url('../img/css_sprite.png') -165px -10px;
 }
 
+#bg-faded_icon {
+    width: 20px; height: 20px;
+    background: url('../img/css_sprites2.png') -52px -50px;
+}
+
+.bg-blue_icon {
+    width: 20px; height: 20px;
+    background: url('../img/css_sprites2.png') -52px -10px;
+}
+
+.bg-Icon__Article {
+    width: 19px; height: 23px;
+    background: url('../img/css_sprites2.png') -10px -50px;
+}
+
+.bg-Icon__Checklist {
+    width: 22px; height: 20px;
+    background: url('../img/css_sprites2.png') -10px -10px;
+}
+
+.bg-Icon__Tip {
+    width: 14px; height: 23px;
+    background: url('../img/css_sprites2.png') -92px -10px;
+}
+
 .dashboard-header {
   background: #32cc66;
   color: white;
   border-radius: 3px;
 }
 
-.body-container {
+.content-contain {
   background: rgb(246, 246, 246);
   background: linear-gradient(187deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
 
@@ -76,10 +101,28 @@
   /* border: 1px lightgrey solid; */
 }
 
+.avitar {
+  display: inline;
+  border: 1px lightgrey solid;
+  padding: 0;
 
+}
+
+.avitar div, .avitar p{
+  display:inline-block;
+}
 
 .number {
   background-color: #32cc66;
   color: white;
   padding: 8px;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+
+.tiny_text {
+  font-size: 10px;
+  margin: 0;
 }
