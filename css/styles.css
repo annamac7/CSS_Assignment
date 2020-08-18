@@ -1,0 +1,85 @@
+/* div {
+  border: solid 4px red;
+}
+
+.container {
+  background: grey;
+}
+
+.row {
+  border: solid blue;
+
+}
+
+.column {
+  background: lightgrey;
+} */
+.light-blue-bg {
+  background: #2292eb;
+  color: white;
+}
+
+.dark-blue {
+  background: darkblue;
+}
+/* IMAGES */
+#bg-Icon_Dashboard {
+    width: 58px; height: 58px;
+    background: url('../img/css_sprite.png') -10px -10px;
+}
+
+#bg-Icon__Analytics {
+    width: 42px; height: 50px;
+    background: url('../img/css_sprite.png') -10px -150px;
+}
+
+#bg-Icon__Customers {
+    width: 62px; height: 42px;
+    background: url('../img/css_sprite.png') -10px -88px;
+}
+
+#bg-Icon__Messages {
+    width: 57px; height: 48px;
+    background: url('../img/css_sprite.png') -88px -10px;
+}
+
+#bg-Icon__Page_Creator {
+    width: 45px; height: 50px;
+    background: url('../img/css_sprite.png') -165px -80px;
+}
+
+#bg-Icon__Promotions {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprite.png') -165px -10px;
+}
+
+.dashboard-header {
+  background: #32cc66;
+  color: white;
+  border-radius: 3px;
+}
+
+.body-container {
+  background: rgb(246, 246, 246);
+  background: linear-gradient(187deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+
+}
+
+.body {
+  border: 1px lightgrey solid;
+  background: white;
+}
+
+.greyborder {
+  border-top: 1px lightgrey solid;
+  /* border: 1px lightgrey solid; */
+}
+
+
+
+.number {
+  background-color: #32cc66;
+  color: white;
+  padding: 8px;
+}
