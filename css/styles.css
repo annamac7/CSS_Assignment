@@ -78,6 +78,18 @@
     background: url('../img/css_sprites2.png') -92px -10px;
 }
 
+body {
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+.right-border {
+  border-right: 1px lightgrey solid;
+
+}
+.blue-font {
+  color: #2498f4;
+}
+
 .dashboard-header {
   background: #32cc66;
   color: white;
@@ -87,8 +99,6 @@
 .content-contain {
   background: rgb(246, 246, 246);
   background: linear-gradient(187deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
-
-
 }
 
 .body {
@@ -102,23 +112,40 @@
 }
 
 .avitar {
-  display: inline;
   border: 1px lightgrey solid;
-  padding: 0;
-
+  /* padding: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  width: 80px;
 }
 
+
 .avitar div, .avitar p{
-  display:inline-block;
+  display: inline-block;
+  margin: 2px;
+  padding:2px
+}
+
+
+.center {
+  padding-top: 10px;
 }
 
 .number {
   background-color: #32cc66;
   color: white;
-  padding: 8px;
+  padding: 4px;
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 28px;
+  width: 28px;
+  text: 18px;
+  text-align: center;
+}
+
+.task-heading {
+  margin-left: 8px;
 }
 
 
