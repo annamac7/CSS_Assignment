@@ -20,7 +20,15 @@
 }
 
 .dark-blue {
-  background: darkblue;
+  background-image: url("../img/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 18px;
+}
+
+.nav-img {
+  margin: 20px;
 }
 /* IMAGES */
 #bg-Icon_Dashboard {
@@ -84,8 +92,8 @@ body {
 
 .right-border {
   border-right: 1px lightgrey solid;
-
 }
+
 .blue-font {
   color: #2498f4;
 }
@@ -94,16 +102,32 @@ body {
   background: #32cc66;
   color: white;
   border-radius: 3px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.search{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.orange {
+  color: #fe7f13;
+}
 .content-contain {
   background: rgb(246, 246, 246);
   background: linear-gradient(187deg, rgba(246, 246, 246, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .body {
   border: 1px lightgrey solid;
   background: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .greyborder {
