@@ -197,11 +197,16 @@
 #bg-ad_1 {
     width: 239px; height: 150px;
     background: url('../img/sprites4.png') -10px -201px;
+    position: absolute;
+    margin: 0px;
+    z-index: 0;
 }
 
 #bg-ad_2 {
     width: 268px; height: 171px;
     background: url('../img/sprites4.png') -10px -10px;
+    margin-top: -15px;
+    position: absolute;
 }
 
 
@@ -468,8 +473,30 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .ad-container {
   background: white;
-  padding: 36px;
+  /* padding: 36px; */
   height: 160px;
   width: 280px;
   border-radius: 8px;
+}
+
+.ad_card_content {
+  z-index: 1;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 140px;
+}
+
+#ad_card_content2 {
+  position: absolute;
+  margin-top: 60px;
+  width: 240px;
+  background-color: #32cc66;
+  text-align: center;
+padding: 4px;
+border-radius: 4px;
+  margin-right: 20px;
+  margin-left: 20px;
+
 }
