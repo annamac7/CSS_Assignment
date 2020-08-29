@@ -224,6 +224,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: auto;
   background-repeat: no-repeat;
   padding: 4px;
+  cursor: pointer;
 }
 
 #search_form {
@@ -406,7 +407,7 @@ p, h1, h2, h3, h4, h5, h6 {
   border: 1px lightgrey solid;
   margin: 20px;
   border-radius: 8px;
-  
+
 }
 
 .contact_av {
@@ -428,12 +429,41 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .blue-bg {
   background: #2698f4;
-  padding: 40px;
+  padding: 50px;
   color: white;
 }
 
-.next {
+.carousel-control-prev, .carousel-control-next{
   background: white;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-control-prev {
+  left: -25px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../img/prev.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../img/next.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.carousel-control-next {
+  right: -25px;
+  margin: auto;
 }
 
 .ad-container {
