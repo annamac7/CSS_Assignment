@@ -104,6 +104,43 @@
   background: url('../img/sprite3.png') -165px -10px;
 }
 
+.marker {
+  background-image: url('../img/Marker.png');
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background-repeat: no-repeat;
+  left: 25px;
+  bottom: -18px;
+  visibility: hidden;
+}
+
+#bg-Icon_Dashboard:hover + .marker {
+  visibility: visible;
+}
+
+#bg-Icon__Customers:hover + .marker {
+  visibility: visible;
+}
+
+#bg-Icon__Messages:hover + .marker {
+  visibility: visible;
+}
+
+#bg-Icon__Analytics:hover + .marker {
+  visibility: visible;
+}
+
+#bg-Icon__Promotions:hover + .marker {
+  visibility: visible;
+}
+
+#bg-Icon__Page_Creator:hover + .marker {
+  visibility: visible;
+}
+
+
+
 #dd_btn {
   width: 10px;
   height: 6px;
@@ -262,6 +299,10 @@ p, h1, h2, h3, h4, h5, h6 {
   float: right;
   margin: 5px;
   box-shadow: 0px 0px 0px 2px lightgrey;
+}
+
+.pagiation_btns:hover {
+  box-shadow: 0px 0px 0px 4px lightgrey;
 }
 
 
@@ -516,6 +557,11 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 280px;
   border-radius: 8px;
   position: relative;
+  box-shadow: 0 0 10px slategrey;
+}
+
+.ad-container:hover {
+  box-shadow: 0 3px 20px slategrey;
 }
 
 #ad_card_content1 {
