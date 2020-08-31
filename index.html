@@ -16,16 +16,16 @@
 <body>
   <!-- TOP NAV -->
   <div class="container-fluid menu">
-    <div class="row light-blue-bg">
-      <ul class="nav">
+    <div class="row justify-content-end  align-items-center light-blue-bg">
+      <ul class="nav" id="top_nav">
         <li class="nav-item">
           <h6>MINI of Raleigh</h6>
         </li>
-        <li class="nav-item">
-          <!-- QUESTIONS -->
+        <li class="nav-item" id="settings">
+          <a href="#"><img src="img/Icon_Help.png" alt="help"></a>
         </li>
         <li class="nav-item">
-          <!-- SETTINGS -->
+          <a href="#"><img src="img/Icon_Settings.png" alt="setting"></a>
         </li>
       </ul>
     </div>
@@ -36,7 +36,7 @@
       <ul class="nav">
         <li class="position-relative" id="li_1">
           <div class="nav-item nav-img" id="bg-Icon_Dashboard">
-            </div>
+          </div>
           <div class="marker"></div>
 
         </li>
@@ -120,7 +120,7 @@
 
         <!-- TASKS & RECOMMENDATIONS || LEFT SIDE -->
         <div class="col-4 top-grey right-border">
-          <h3 class="blue-font">Tasks</h3>
+          <h3 class="blue-font p-2">Tasks</h3>
           <div class="row p-2 blue-text">
             <span class="m-1 number">1</span>
             <span class="m-1 task-heading">
@@ -176,14 +176,14 @@
           <div class="m-2">
             <div class="row p-2 flex-nowrap">
               <span class="type_icon bg-Icon__Article"></span>
-              <div>
+              <div class="dark_text_hover">
                 <p class="tiny_text">Article</p>
                 <p>7 Steps to getting more Fans</p>
               </div>
             </div>
             <div class="row p-2 top-spotted flex-nowrap">
               <span class=" type_icon bg-Icon__Article"></span>
-              <div class="">
+              <div class="dark_text_hover">
                 <p class="tiny_text">Article</p>
                 <p>Increase traction with more interactions
                 </p>
@@ -191,10 +191,9 @@
             </div>
             <div class="row p-2 top-spotted flex-nowrap">
               <span class=" type_icon bg-Icon__Checklist"></span>
-              <div>
+              <div class="dark_text_hover">
                 <p class="tiny_text">
-                  Checklist
-                </p>
+                  Checklist </p>
                 <p>
                   Creating a Promotion
                 </p>
@@ -202,7 +201,7 @@
             </div>
             <div class="row p-2 top-spotted flex-nowrap">
               <span class="type_icon bg-Icon__Tip"></span>
-              <div>
+              <div class="dark_text_hover">
                 <p class="tiny_text">
                   Tip
                 </p>
@@ -218,9 +217,9 @@
 
 
         <!-- RIGHT SIDE -->
-        <div class="col-8 top-grey p-4">
+        <div class="col-8 top-grey">
           <!-- ANALYTICS -->
-          <h3 class="blue-font">Analytics</h3>
+          <h3 class="blue-font p-2">Analytics</h3>
           <div class="row">
             <div class="col-9 p-3">
               <!-- ACTIVITY AND DROPDOWN -->
@@ -251,6 +250,7 @@
               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
               <label class="form-check-label all-social" id="fb" for="inlineCheckbox1">Facebook</label>
             </div>
+
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
               <label class="form-check-label all-social" id="twitter" for="inlineCheckbox1">Twitter</label>
@@ -267,7 +267,7 @@
 
           <!-- CONTACTS -->
           <div class="row top-grey p-3 justify-content-around">
-            <div class="contact shadow">
+            <div class="contact">
               <div class="contact_av" id="bg-avatar_1"></div>
               <div class="ribbon_side bg-ribbon_left"></div>
               <div class="ribbon_side bg-ribbon_right"></div>
@@ -277,7 +277,7 @@
               </div>
               <div class="graph_cont" id="bg-graph_g"></div>
             </div>
-            <div class="contact shadow">
+            <div class="contact">
               <div class="contact_av" id="bg-avatar_2"></div>
               <div class="ribbon_side bg-ribbon_left"></div>
               <div class="ribbon_side bg-ribbon_right"></div>
@@ -324,7 +324,7 @@
 
     </div>
     <div class="row make_bg_blue d-flex justify-content-around">
-      <div class="ad-container  m-2">
+      <div class="ad-container m-1">
         <div id="bg-ad_1"></div>
         <div id="ad_card_content1">
           <h5 class="text-success">
@@ -336,7 +336,7 @@
         </div>
       </div>
 
-      <div class="ad-container">
+      <div class="ad-container m-1">
         <div id="bg-ad_2"></div>
         <div class="text-white " id="ad_card_content2">
           <p>
@@ -345,12 +345,54 @@
         </div>
       </div>
 
-      <div class="ad-container ">
+      <div class="ad-container m-1">
         <div id="bg-ad_3"></div>
         <div id="ad_card_content3">
           <h5>Version 2.0 is coming</h5>
         </div>
 
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid my_footer ">
+    <div class="row">
+      <div class="col-4 ">
+        <div class=" justify-content-end align-items-center d-flex">
+          <p class="">
+            Tutorials
+          </p>
+          <p class="">
+            Support
+          </p>
+          <p class="">
+            Blog
+          </p>
+        </div>
+      </div>
+      <div class="col-4 border-left-dark ">
+        <div class=" justify-content-center align-items-center  ">
+          <p>
+            <a href="#">Ariel Winter</a> likes your <a href="#">Win a Cooper Sweepstakes</a> Promotion
+          </p>
+          <div id="up_arrow">
+          </div>
+        </div>
+      </div>
+      <div class="col-2 border-left-dark ">
+        <div class=" d-flex justify-content-start align-items-center flex-nonwrap ">
+          <div id="bg-footer_img" class="shadow-sm">
+          </div>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+      <div class="col-2 border-left-dark footer_social ">
+        <div class="d-flex">
+          <div id="bg-Avatar__Facebook"></div>
+          <div id="bg-Avatar__Twitter"></div>
+          <div id="bg-Avatar__Foursquare"></div>
+          <div id="bg-Avatar__YouTube"></div>
+        </div>
       </div>
     </div>
   </div>

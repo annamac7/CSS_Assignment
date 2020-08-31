@@ -221,10 +221,7 @@
   background: url('../img/sprites4.png') -585px -274px;
 }
 
-.bg-check {
-  width: 22px; height: 21px;
-  background: url('../img/sprites4.png') -543px -274px;
-}
+
 
 #bg-ad_3 {
     width: 225px; height: 160px;
@@ -258,8 +255,22 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .right-border {
-  border-right: 1px lightgrey solid;
+  border-right: 1px #eeeeee solid;
+}
 
+#top_nav * {
+  padding: 2px 4px;
+  margin: 3px;
+}
+
+#top_nav {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+#settings {
+  border-left: .5px #0f6eb9 solid;
+  border-right: .5px #0f6eb9 solid;
 }
 
 #search_icon {
@@ -289,6 +300,63 @@ p, h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
+#bg-Avatar__Facebook {
+    width: 16px; height: 16px;
+    background: url('../img/sprite6.png') -10px -60px;
+}
+
+#bg-Avatar__Facebook:hover {
+  background: url('../img/sprite6.png') -136px -10px;
+
+}
+
+#bg-Avatar__Foursquare {
+    width: 16px; height: 16px;
+    background: url('../img/sprite6.png') -46px -60px;
+}
+
+#bg-Avatar__Foursquare:hover {
+  background: url('../img/sprite6.png') -10px -96px;
+}
+
+#bg-Avatar__Twitter {
+    width: 16px; height: 16px;
+    background: url('../img/sprite6.png') -100px -10px;
+}
+
+#bg-Avatar__Twitter:hover {
+  background: url('../img/sprite6.png') -46px -96px;
+}
+
+#bg-Avatar__YouTube {
+    width: 16px; height: 16px;
+    background: url('../img/sprite6.png') -100px -46px;
+}
+
+#bg-Avatar__YouTube:hover {
+  background: url('../img/sprite6.png') -82px -96px;
+
+}
+
+#bg-footer_img {
+    width: 30px; height: 30px;
+    background: url('../img/sprite6.png') -10px -10px;
+    border: white 2px solid;
+    border-radius: 1px;
+}
+
+#bg-Icon_Settings_Grey {
+    width: 20px; height: 20px;
+    background: url('../img/sprite6.png') -60px -10px;
+}
+
+#bg-CAvatar__YouTube {
+    width: 16px; height: 16px;
+    background: url('css_sprites.png') -82px -96px;
+}
+
+
 
 .pagiation_btns {
   width: 20px;
@@ -376,26 +444,30 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .body {
-  border: 1px lightgrey solid;
+  border: 1px #eeeeee solid;
   background: white;
   /* margin-top: 10px;
   margin-bottom: 10px; */
 }
 
 .top-grey {
-  border-top: 1px lightgrey solid;
+  border-top: 1px #eeeeee solid;
   /* border: 1px lightgrey solid; */
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
 .top-spotted {
-  border-top: 1px lightgrey dotted;
+  border-top: 1px #eeeeee dotted;
   padding: 6px;
 }
 
 .left-grey {
-  border-left: 1px lightgrey solid;
+  border-left: 1px #eeeeee solid;
+}
+
+.dark_text_hover:hover {
+  color: grey;
 }
 
 #announcements p {
@@ -478,15 +550,23 @@ p, h1, h2, h3, h4, h5, h6 {
   background: #31cc66;
 }
 
+
+
+
+
 .contact {
   width: 214px;
   height: 202px;
   border: 1px lightgrey solid;
   margin: 20px;
   border-radius: 8px;
-
+  box-shadow: 0 0 10px #ddd;
 }
 
+.contact:hover {
+  box-shadow: 0 0 25px #ddd;
+  transform: scale(1.02);
+}
 .contact_av {
   margin: -30px auto 0px;
 }
@@ -530,6 +610,10 @@ p, h1, h2, h3, h4, h5, h6 {
   left: -25px;
 }
 
+.carousel-control-prev:hover {
+  left: -30px;
+}
+
 .carousel-control-prev-icon {
   background-image: url('../img/prev.png');
   background-position: center;
@@ -550,6 +634,10 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+.carousel-control-next:hover {
+  right: -30px;
+}
+
 .ad-container {
   background: white;
   /* padding: 36px; */
@@ -557,11 +645,12 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 280px;
   border-radius: 8px;
   position: relative;
-  box-shadow: 0 0 10px slategrey;
+  box-shadow: 0 0 10px rgba(87,83,83,0.26)
 }
 
 .ad-container:hover {
-  box-shadow: 0 3px 20px slategrey;
+  box-shadow: 0 3px 20px rgba(87,83,83,0.5);
+  transform: scale(1.02);
 }
 
 #ad_card_content1 {
@@ -591,4 +680,27 @@ p, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 25%;
   padding: 20px;
+}
+
+.my_footer {
+  background: #eee;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.my_footer a {
+  font-weight: bolder;
+}
+
+.footer_social * {
+  margin:  2px auto!important;
+  padding: 0px !important;
+}
+
+.border-left-dark {
+  border-left: darkgrey 1px solid !important;
+  margin: 0px;
+  padding: 0px;
 }
