@@ -355,9 +355,6 @@ p, h1, h2, h3, h4, h5, h6 {
   background: url('../img/PullUp.png');
   width: 15px; height: 15px;
   background-repeat: no-repeat;
-
-
-
 }
 
 
@@ -372,6 +369,13 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 5px;
   box-shadow: 0px 0px 0px 2px lightgrey;
 }
+/*
+#ch_reef {
+  background-image: url('../img/ch_reef.png');
+  width: 20px;
+  height: 30px;
+}
+ */
 
 .pagiation_btns:hover {
   box-shadow: 0px 0px 0px 4px lightgrey;
@@ -713,4 +717,32 @@ p, h1, h2, h3, h4, h5, h6 {
   border-right: darkgrey 1px solid !important;
   margin: 0px;
   padding: 0px;
+}
+
+
+.marquee {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+
+.tool_percent {
+  color: dodgerblue;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.tt {
+  display: flex;
+  flex-wrap: none;
+  align-content: space-around;
+  /* width: 140px; */
+  padding: 0;
+}
+
+.cont {
+  font-size: 12px;
+  padding: 15px;
 }
